@@ -13,7 +13,7 @@ To run cnrUV for segmentation do as follows,
 ```
 >> make demo  
 ```
-'make demoseg' will run for the sample data (Harvey) given in data/ directory.
+'make demo' will run for the sample data (Harvey) given in data/ directory.
 
 
 For Segmentation: cd segmentation/
