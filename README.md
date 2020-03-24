@@ -50,13 +50,21 @@ python laplacian.py <data_file> <adj_list_file> <save_file>
 -- <result_file> directory where results should be saved.
 
 -- hyperparameters:
+   
    -k: latent parameter. An integer number in string format. e.g., '5'.  
+   
    -seg_limit: limit the max number of segments that can be considered for result. An integer number in string format, e.g., '10'.
+   
    -lam1: an array of float values. first try between (0,1), e.g., [0.1] 
+   
    -lam2: an array of float values. first try between (0,1), e.g., [0.1] 
+   
    -lam3: an array of float values. first try between (0,1), e.g., [0.1] 
+   
    -beta: an array of float values. first try between (0.5,1), e.g., [0.7] 
+   
    -nbclustersV: an array of integer values. Represents the max number of temporal clusters, e.g., [3] 
+   
    -nbclustersU: an array of integer values. Represents the max number of spatial clusters, e.g., [2]
 
 Note: 
