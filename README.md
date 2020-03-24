@@ -111,9 +111,12 @@ Input:
 --<file_affinity_U>: U_affinity_matrix file name found by running segmentation code. This output file will be same found from the corresponding <seg_file> (same hyperparams)
 
 -- hyperparams:
+    
     - alpha: a float value select how many to choose for explanation
+    
     - lmbda: a float value
-    - nclusters: number of cluster chosen for V (during segmentation)
+    
+-- nclusters: number of cluster chosen for V (during segmentation)
 
 Output:
 -------
