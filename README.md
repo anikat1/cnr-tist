@@ -46,7 +46,9 @@ python laplacian.py <data_file> <adj_list_file> <save_file>
 	- <save_file>: Directory for the results to be saved   
 
 -- <vis_file> .csv located in data/ is a comma separated file. This can be same as data file or a non-normalized version of the data file. This file is to plot the segmentation.
+
 -- <result_file> directory where results should be saved.
+
 -- hyperparameters:
    -k: latent parameter. An integer number in string format. e.g., '5'.  
    -seg_limit: limit the max number of segments that can be considered for result. An integer number in string format, e.g., '10'.
@@ -56,8 +58,9 @@ python laplacian.py <data_file> <adj_list_file> <save_file>
    -beta: an array of float values. first try between (0.5,1), e.g., [0.7] 
    -nbclustersV: an array of integer values. Represents the max number of temporal clusters, e.g., [3] 
    -nbclustersU: an array of integer values. Represents the max number of spatial clusters, e.g., [2]
+
 Note: 
--Here an array is used for hyperparameter search. A set of one hyperparameter should give desired result. To make things simpler, we select the candidate whose segmentation is closest to ground-truth or loss value in ../result/loss.txt is minimum (when no ground-truth).
+-A set of one hyperparameter should give desired result. To make things simpler, we select the candidate whose segmentation is closest to ground-truth or loss value in ../result/loss.txt is minimum (when no ground-truth).
 - There are also other hyperparameters in the matlab file, gamma1, gamma2, gamma3 but they are robust and we set them to be 0.5 in all cases. They can also be changed if necessary.
 
 Output:
