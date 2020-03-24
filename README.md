@@ -15,9 +15,9 @@ To run cnrUV for segmentation do as follows,
 ```
 'make demo' will run for the sample data (Harvey) given in data/ directory.
 
-
-For Segmentation: cd segmentation/
-You can directly run the code using following command
+segmentation/: 
+-------------
+For getting segmentation. You can directly run the code using following command
 ```
 - Example: 
     MATLAB_path -nodisplay -nosplash -nodesktop -r "demo_spatial_seg_exog3_fast(<result_file>,<data_file>,<vis_file>,<laplace_file>,k,segLimit,lam1,lam2,lam3,beta,nbclustersV,nbclustersU)"
@@ -83,8 +83,8 @@ U_affinity_matrix_lam1_v1_lam2_v2_lam3_v3_clusV_v4_l_3_clusU_v5.csv: U'U, where 
 
 clustersU_lam1_v1_lam2_v2_lam3_v3_clusV_v4_clusU_v5.csv: each row i represents which cluster time-series i should belong to. This just shows how time-series are clustered spatially.
 
-For Explanation: cd explanation/
-
+explanation/: 
+------------
 To run cnrUV for explanation (which time-series are culprit for the segmentation) do as follows,
 ```
 >> make demo 
