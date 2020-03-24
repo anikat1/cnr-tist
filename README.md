@@ -93,10 +93,15 @@ Note:
 Input:
 -------
 --<data_dir>: data directory
+
 --<data_file>: data file name
+
 --<result_file>: directory to save
+
 --<seg_file> : seg file name in the result directory (obtained from segmentation). This segmentation will be used for explanation.
+
 --<file_affinity_U>: U_affinity_matrix file name found by running segmentation code. This output file will be same found from the corresponding <seg_file> (same hyperparams)
+
 -- hyperparams:
     - alpha: a float value select how many to choose for explanation
     - lmbda: a float value
@@ -107,7 +112,11 @@ Output:
  #located in result_file directory
 
 -E_alpha.txt: for each cutpoint explanation weight of every time-series
+
 -plot_pdf: plot of time-series and segmentation
+
 -plot_cut_impC.txt: txt file showing which time-series chosen for explanation at each cutpoint
+
 -plot_exp: plot of time-series and segmentation+explanation
+
 -plot_exp_i: plot of time-series and explanation of cutpoint i
