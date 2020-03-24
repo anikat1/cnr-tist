@@ -1,7 +1,5 @@
-Cut-n-Reveal: Time-series Segmentations with Explanations (cnrUV)
+'Cut-n-Reveal: Time-series Segmentations with Explanations (cnrUV)', Nikhil Muralidhar, Liangzhe Chen, Anika Tabassum, Supriya Chinthavali, Naren Ramakrishnan, and B. Aditya Prakash
 ==========================================================================
-
-Authors: Nikhil Muralidhar, Liangzhe Chen, Anika Tabassum, Supriya Chinthavali, Naren Ramakrishnan, and B. Aditya Prakash
 
 Usage:
 Note: You need to set the correct MATLAB_path in the makefile (Including the MATLAB executable).
