@@ -1,4 +1,4 @@
-'Cut-n-Reveal: Time-series Segmentations with Explanations (cnrUV)', Nikhil Muralidhar, Liangzhe Chen, Anika Tabassum, Supriya Chinthavali, Naren Ramakrishnan, and B. Aditya Prakash
+'Cut-n-Reveal: Time-series Segmentations with Explanations (CnR-UV)', Nikhil Muralidhar, Liangzhe Chen, Anika Tabassum, Supriya Chinthavali, Naren Ramakrishnan, and B. Aditya Prakash
 ==========================================================================
 
 Usage:
