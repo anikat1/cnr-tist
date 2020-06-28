@@ -1,5 +1,8 @@
 'Cut-n-Reveal: Time-series Segmentations with Explanations (CnR-UV)', Nikhil Muralidhar, Liangzhe Chen, Anika Tabassum, Supriya Chinthavali, Naren Ramakrishnan, and B. Aditya Prakash
 ==========================================================================
+Paper:
+-------------
+Both paper and supplementary readings are added here. Check paper.pdf and appendix.pdf
 
 Usage:
 Note: You need to set the correct MATLAB_path in the makefile (Including the MATLAB executable).
